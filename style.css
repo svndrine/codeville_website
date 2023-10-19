@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+:root{
+    --color1: #469B9B;
+    --color2: #F06B1D;
+    --color3: #00EFEE;
+    --color4: #B06A41;
+    --color5: #705546;
+}
+
+h1, h2, p, a {
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color4);
+}
+
+header {
+    background-color: var(--color1);
+    margin-bottom: 20px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 2px solid var(--color3);
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color4);
+}
+
+.otherbackground{
+    background-color: var(--color5);
+}
+
+section p{
+    width: 50%;
+    text-align: justify;
+    border-bottom: 3px solid var(--color2);
+    border-top: 3px solid var(--color2);
+    padding: 10px 0;
+}
+
+h1, h2{
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+nav li:hover{
+    background-color: var(--color3);
+
+    a{
+        color: var(--color1)
+    }
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    padding: 20px;
+    background-color: var(--color1);
+    border-top: 2px solid var(--color3);
+    color: white;
+}
