@@ -1,4 +1,4 @@
-function afficheIndice() {
+function afficherIndice() {
     var indiceBloc = document.createElement('p');
     indiceBloc.innerText = "L'indice est: Des lumières scintillantes dans le ciel nocturne!";
     indiceBloc.classList.add('indice');
