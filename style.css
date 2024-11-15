@@ -118,3 +118,18 @@ footer{
     border-top: 2px solid var(--color3);
     color: white;
 }
+
+
+/* Animation pour le scintillement */
+@keyframes scintillement {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+#indice:hover h2, #indice:hover p {
+    animation: scintillement 0.5s infinite;
+}
